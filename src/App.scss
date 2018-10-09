@@ -1,0 +1,82 @@
+.App {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1000px;
+
+  .orderList {
+    margin-top: 30px;
+  }
+
+  .wrapper__basket {
+    position: absolute;
+    top: 11.7%;
+    right: 24%;
+  }
+
+  .wrapper__products {
+    padding-top: 20px;
+  }
+
+  .basket {
+    position: absolute;
+    width: 226px;
+    border: 1px solid #d4d4d4;
+    border-radius: 8px;
+
+    .basket__header {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 15px;
+      
+      img {
+        margin-left: 5px;
+      }
+
+      .basket__title {
+        margin: 23px 20px 0 0;
+        font-family: 'Arial', sans-serif;
+        font-size: 1.28rem;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+      }
+    }
+
+    .line {
+      margin: 30px auto 0;
+      width: 90%;
+      height: 1px;
+      background-color: #d4d4d4;
+    }
+
+    .total {
+      padding: 14px 10px 30px 0;
+      text-align: right;
+      font-family: 'Arial', sans-serif;
+      font-size: 0.85rem;
+      font-weight: bold;
+      letter-spacing: 0.4px;
+
+      .totalReg {
+        margin-right: 4px;
+        font-weight: 100;
+      }
+    }
+
+    .toOrder {
+      width: 90%;
+      padding: 10px 0;
+      margin-left: 5%;
+      margin-bottom: 18px;
+      background-color: #29d807;
+      font-family: 'Arial', sans-serif;
+      font-size: 1.28rem;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      color: #ffffff;
+      text-shadow: 1px 1px 2px #686868;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  }
+}

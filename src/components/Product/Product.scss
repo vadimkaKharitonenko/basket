@@ -1,0 +1,75 @@
+.Product {
+  display: flex;
+  max-width: 750px;
+  padding: 21px 0 14px;
+  border-bottom: 1px solid#d7d7d7;
+
+  .Product__info {
+    padding: 12px 0 0 20px;
+
+    .Product__name {
+      font-family: 'Arial', sans-serif;
+      font-size: 1.28rem;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+    .Product__description {
+      width: 340px;
+      padding-top: 14px;
+      font-family: 'Arial', sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.4px;
+      line-height: 17.5px;
+    }
+  }
+
+  .Product__buy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 32px 11px;
+
+    .Product__price {
+      font-family: 'Arial', sans-serif;
+      font-size: 1.71rem;
+      font-weight: bold;
+      letter-spacing: 0.6px;
+    }
+
+    .Product__buyButton {
+      margin-top: 13px;
+      padding: 10px 40px 10px 50px;
+      font-family: 'Arial', sans-serif;
+      font-size: 1.42rem;
+      font-weight: bold;
+      letter-spacing: 0.6px;
+      color: #ffffff;
+      text-shadow: 1px 1px 2px #686868;
+      border: none;
+      border-radius: 10px;
+      background-color: #00ade4;
+      cursor: pointer;
+    }
+  }
+}
+
+.Product:nth-child(2) .Product__buy {
+  margin-top: 60px;
+}
+
+.Product:nth-child(3) .Product__buy {
+  margin-top: 58px;
+}
+
+.Product:nth-child(4) .Product__buy {
+  margin-top: 55px;
+}
+
+.Product:nth-child(5) .Product__buy {
+  margin-top: 53px;
+}
+
+.Product:nth-child(5) {
+  border: none;
+}
